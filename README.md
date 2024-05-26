@@ -6,13 +6,13 @@ Acest proiect calculează distanța Levenshtein între două șiruri de caracter
 
 ## Structura Fișierelor
 
-- `main.c`: Conține funcția principală pentru interacțiunea cu utilizatorul.
-- `levensthein_alg.c`: Contine implementarea calcului distantei Levenshtein intre doua siruri
-- `string_generator.c`: Contine implementarea generarii a doua siruri de caractere cu lungime de maxim 30 caractere
+- `main.py`: Conține funcția principală pentru interacțiunea cu utilizatorul.
+- `levensthein_alg.py`: Contine implementarea calcului distantei Levenshtein intre doua siruri
+- `string_generator.pt`: Contine implementarea generarii a doua siruri de caractere cu lungime de maxim 30 caractere
 
 ## Dependențe
 
-- Biblioteca standard C (`<stdio.h>`, `<string.h>`, `<stdlib.h>`)
+- Biblioteca standard C (`<random>`)
 
 ## Gestionarea memoriei
 
@@ -20,5 +20,10 @@ Programul alocă dinamic memorie pentru matricea 2D a distanțelor pentru a gest
 
 ## Note
 
-Șirurile de intrare sunt limitate la 255 de caractere fiecare. Acest lucru poate fi ajustat modificând dimensiunea bufferului din funcția main.
-Caracterul de newline de la intrarea fgets este eliminat pentru a asigura o comparație corectă a șirurilor.
+- Șirurile de intrare sunt limitate la 255 de caractere fiecare. Acest lucru poate fi ajustat modificând dimensiunea bufferului din funcția main.
+- Caracterul de newline de la intrarea fgets este eliminat pentru a asigura o comparație corectă a șirurilor.
+- Pathul pentru fisierul input ar putea fi diferit pe sistemul dumneavoastra
+
+## Rulare:
+- Folositi un iterpretor de Python
+- Tastati 1 sau 2 pentru a alege modul de testare
